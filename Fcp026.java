@@ -1,14 +1,15 @@
+import java.util.*;
 public class Fcp026
 {
 public static void main(String[] args)
 {
-int n = 4;
-int i = 1;
-float sum = 0;
-while(i<=n)
+Scanner scan = new Scanner(System.in);
+int m = scan.nextInt();
+int n = scan.nextInt();
+int sum = 0;
+for (m=m;m<=n;m++)
 {
-sum=sum+(1.0f/i);
-i=i+1;
+sum=sum+m;
 }
 System.out.println(sum);
 }
